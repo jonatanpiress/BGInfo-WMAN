@@ -1,6 +1,6 @@
 @echo off
 REM --- Início do script de inicialização do BGInfo ---
-set SRC=\\1SEU-SERVIDOR\gpo\BGInfo
+set SRC=\\SEU-SERVIDOR\gpo\BGInfo
 set DST=C:\BGInfo
 
 if not exist "%DST%" mkdir "%DST%"
@@ -15,3 +15,4 @@ timeout /t 2 /nobreak > nul
 start /min "" "C:\BGInfo\Bginfo.exe" "C:\BGInfo\Bginfo.bgi" /accepteula /silent /timer:0
 
 exit /b 0
+
