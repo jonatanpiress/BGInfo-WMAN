@@ -1,6 +1,6 @@
 @echo off
-REM --- Início do script de inicialização do BGInfo ---
-set SRC=\\10.33.155.253\gpo\BGInfo
+REM --- InÃ­cio do script de inicializaÃ§Ã£o do BGInfo ---
+set SRC=\\1SEU-SERVIDOR\gpo\BGInfo
 set DST=C:\BGInfo
 
 if not exist "%DST%" mkdir "%DST%"
